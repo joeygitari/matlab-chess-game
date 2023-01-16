@@ -309,6 +309,8 @@ elseif strcmpi('yes',res)
     board(101:200, 501:600, :) = Black_King;
 end
 
+%mode = input('How many players(1 or 2)? ','s');
+
 mat = [10 9 8 11 12 8 9 10; 7 7 7 7 7 7 7 7 ; ...
     0 0 0 0 0 0 0 0; 0 0 0 0 0 0 0 0; 0 0 0 0 0 0 0 0; 0 0 0 0 0 0 0 0;...
     1 1 1 1 1 1 1 1; 4 3 2 5 6 2 3 4];
